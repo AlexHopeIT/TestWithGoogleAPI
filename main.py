@@ -27,7 +27,6 @@ current_course = course_USD[:7]
 current_course = float(current_course.replace(',', '.'))
 
 # Convert USD/RUB
-
 values_col5 = []
 for price in values_col3[1:]:
     price = float(price) * current_course
